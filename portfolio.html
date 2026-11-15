@@ -1,0 +1,305 @@
+ 
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Ali Shaikh | Portfolio</title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+ 
+        body {
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+ 
+        header {
+            background: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+ 
+        header h2 {
+            color: #2563eb;
+        }
+ 
+        nav a {
+            text-decoration: none;
+            color: #334155;
+            margin-left: 18px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+ 
+        nav a:hover {
+            color: #2563eb;
+        }
+ 
+        section {
+            padding: 70px 10%;
+            scroll-margin-top: 70px;
+        }
+ 
+        .home {
+            min-height: 45vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+ 
+        .home h1 {
+            font-size: 42px;
+            margin: 10px 0;
+        }
+ 
+        .home span {
+            color: #2563eb;
+        }
+ 
+        .home p {
+            color: #64748b;
+            font-size: 18px;
+        }
+ 
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+ 
+        h2 {
+            font-size: 28px;
+            margin-bottom: 25px;
+        }
+ 
+        .about p {
+            color: #64748b;
+            max-width: 750px;
+        }
+ 
+        .skills-container,
+        .certificate-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+ 
+        .skill-card,
+        .education-card,
+        .certificate-card,
+        .contact-card {
+            background: white;
+            padding: 24px;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+        }
+ 
+        .skill-card {
+            text-align: center;
+            font-weight: bold;
+        }
+ 
+        .education-card,
+        .contact-card {
+            margin-bottom: 20px;
+        }
+ 
+        .education-card h3,
+        .certificate-card h3 {
+            margin-bottom: 12px;
+        }
+ 
+        .education-card p,
+        .certificate-card p,
+        .contact-card p {
+            color: #64748b;
+            margin: 8px 0;
+        }
+ 
+        .certificate-card a {
+            display: inline-block;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+ 
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: white;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+        }
+ 
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+ 
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+            }
+ 
+            nav a {
+                margin: 0;
+            }
+ 
+            .home h1 {
+                font-size: 32px;
+            }
+ 
+            section {
+                padding: 50px 7%;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <header>
+        <h2>My Portfolio</h2>
+ 
+        <nav>
+            
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+ 
+    <!-- HOME -->
+    <section class="home" id="home">
+        <p>Hello, I'm</p>
+        <h1>Mohammed Ali <span>Shaikh</span></h1>
+        <p>Diploma Student | Vidyalankar Polytechnic</p>
+  
+    </section>
+ 
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+           
+Hello! I'm Mohammed Ali Shaikh, a passionate Computer Engineering Diploma student with a strong interest in technology, programming, and web development.
+<br></br>
+I enjoy exploring new technologies and learning how websites and software applications are designed and developed. I am currently building my technical knowledge in HTML, CSS, C Programming, C++, and Database Management Systems (DBMS).
+
+I believe in continuous learning and improving my skills through practical projects, problem-solving, and experimentation. 
+<br></br>
+I enjoy creating clean, user-friendly, and visually appealing web pages while learning modern web development concepts.
+
+My goal is to become a skilled web developer, gain practical experience, and build innovative projects that solve real-world problems.
+
+I am always eager to learn new things, take on challenges, and grow as a developer.</p>
+    </section>
+ 
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>My Skills</h2>
+ 
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">C Programming</div>
+            <div class="skill-card">C++</div>
+            <div class="skill-card">DBMS</div>
+            <div class="skill-card">Basic Computer Skills</div>
+
+        </div>
+    </section>
+ 
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2>Education</h2>
+ 
+        <div class="education-card">
+            <h3>Secondary School (10th)</h3>
+            <p>Status: Passed</p>
+            <p>Percentage: 94.00%</p>
+        </div>
+ 
+        <div class="education-card">
+            <h3>Diploma in Computer Engineering</h3>
+            <p>College: Vidyalankar Polytechnic</p>
+            <p>Year: First Year</p>
+            <p>Semester 1: 86.82%</p>
+            <p>Semester 2: 89.94%</p>
+        </div>
+    </section>
+ 
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+ 
+        <div class="certificate-container">
+ 
+            <div class="certificate-card">
+                <h3>Basics of Data Structures and Algorithms</h3>
+                <p>Certificate of Completion</p>
+                <a href="C:\Users\mohda_vg\OneDrive\Pictures\dsu course.png" target="_blank">View Certificate 
+                </a>
+            </div>
+ 
+            <div class="certificate-card">
+                <h3>Introduction to the Fundamentals of Databases</h3>
+                <p>Certificate of Completion</p>
+                <a href="C:\Users\mohda_vg\OneDrive\Pictures\Screenshots\dms course.png" target="_blank">
+                    View Certificate
+                </a>
+            </div>
+ 
+            <div class="certificate-card">
+                <h3>Introduction to C++</h3>
+                <p>Certificate of Completion</p>
+                <a href="C:\Users\mohda_vg\OneDrive\Pictures\Screenshots\oop course.png" target="_blank">
+                    View Certificate
+                </a>
+            </div>
+ 
+        </div>
+    </section>
+ 
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+ 
+        <div class="contact-card">
+            <p><strong>Phone:</strong> 97699 24270</p>
+            <p><strong>Email:</strong> <a href="mailto:mohdalishaikh1307@gmail.com">mohdalishaikh1307@gmail.com</a></p>
+        </div>
+    </section>
+ 
+    <footer>
+        <p>© 2026 Mohammed Ali Shaikh. All Rights Reserved.</p>
+    </footer>
+ 
+</body>
+</html>
+ 
